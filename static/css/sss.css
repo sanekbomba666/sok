@@ -1,0 +1,179 @@
+
+
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Стили карточки сборки */
+.pc-build-card {
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    background: #fff;
+    margin: 15px;
+}
+
+.pc-build-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.build-card-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.build-card-image {
+    height: 200px;
+    overflow: hidden;
+}
+
+.build-card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s;
+}
+
+.pc-build-card:hover .build-card-image img {
+    transform: scale(1.05);
+}
+
+.build-card-content {
+    padding: 15px;
+}
+
+.build-card-title {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.build-card-specs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 15px;
+}
+
+.spec-highlight {
+    background: #f0f0f0;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    color: #555;
+}
+
+.build-card-price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2e7d32;
+}
+
+/* Стили страницы сборки */
+.build-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.build-content {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.build-image {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.build-specs {
+    flex: 1;
+}
+
+.specs-list {
+    list-style: none;
+    padding: 0;
+}
+
+.specs-list li {
+    margin-bottom: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+}
+
+.specs-list li strong {
+    min-width: 160px;
+    display: inline-block;
+    color: #555;
+}
+
+.build-actions {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.build-price {
+    font-size: 28px;
+    font-weight: bold;
+    color: #2e7d32;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #2e7d32;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #1b5e20;
+}
+
+.build-description {
+    background-color: #f9f9f9;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.performance-section {
+    margin-top: 40px;
+}
+
+.back-link {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #2e7d32;
+    text-decoration: none;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
