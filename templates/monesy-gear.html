@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIPERR PC - Сборка игровых компьютеров</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css">
+<style>
+        /* Обновленные стили для профиля */
+        .profile {
+            max-width: 1200px;
+            margin: 40px auto;
+            text-align: center;
+            color: white;
+            padding: 0 20px;
+        }
+        
+        .profile img {
+            width: 250px;
+            height: 250px;
+            border-radius: 15px;
+            object-fit: cover;
+            border: 3px solid #00ff00;
+            box-shadow: 0 10px 20px rgba(0,255,0,0.2);
+            margin-bottom: 25px;
+        }
+        
+        .profile h1 {
+            font-size: 3rem;
+            margin-bottom: 15px;
+            color: #00ff00;
+            text-shadow: 0 0 10px rgba(0,255,0,0.5);
+        }
+        
+        .profile p {
+            font-size: 1.5rem;
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+        
+        /* Остальные стили остаются без изменений */
+        .gear-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto 50px;
+            padding: 0 20px;
+        }
+        
+        .gear-item {
+            background-color: #1c1f26;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        
+        .gear-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,255,0,0.1);
+        }
+        
+        .gear-item img {
+            width: 100%;
+            height: 150px;
+            background: gray;
+            border-radius: 5px;
+            object-fit: cover;
+        }
+        
+        .gear-title {
+            margin: 15px 0;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+        
+        .price-button {
+            background-color: #00ff00;
+            color: black;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 20px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 10px;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+        
+        .price-button:hover {
+            background-color: #00cc00;
+            transform: translateY(-2px);
+        }
+        
+        .back-link {
+            display: inline-block;
+            margin: 20px;
+            color: #00ff00;
+            text-decoration: none;
+            font-size: 1.1rem;
+            transition: all 0.3s;
+        }
+        
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <a href="#" class="logo">VIPERR<span>PC</span></a>
+            <nav>
+                <ul>
+                    <li><a href="#ready-builds">Готовые сборки</a></li>
+                    <li><a href="donk.html">Выбор PRO-игроков</a></li>
+                    <li><a href="https://www.dns-shop.ru/catalog/17a899cd16404e77/processory/?fromRsu=1">Конфигуратор</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <div class="container">
+        <a href="donk.html" class="back-link">← Вернуться к PRO-игрокам</a>
+    </div>
+    
+    <div class="profile">
+        <img src="/static/img/monesy.jpg" alt="MONESY">
+        <h1>MONESY</h1>
+        <p>🇷🇺 RUSSIA</p>
+        <p>FALCONS</p>
+        <p>CS2 🎮</p>
+    </div>
+    <div class="gear-grid">
+        <div class="gear-item">
+            <img src="/static/img/zow.jpg" alt="Монитор">
+            <div class="gear-title">ZOWIE XL2546K</div>
+            <a href="https://www.regard.ru/product/370497/monitor-benq-24-xl2411k-zowie" class="price-button">Check price</a>
+        </div>
+        <div class="gear-item">
+            <img src="/static/img/df.jpg" alt="Мышь">
+            <div class="gear-title">Logitech G Pro X Superlight</div>
+            <a href="https://www.mvideo.ru/products/igrovaya-mysh-logitech-g-pro-x-superlight-black-50174952?cityId=CityCZ_15598&reff=yan_tov_tambov_dD50_c50307_g503070101_m770&utm_medium=cpc&utm_source=yandex&utm_campaign=cn:mg_dsa_content_p_low-regions%7Ccid:81761497&utm_term=---autotargeting&utm_content=ph:53131207448%7Cre:53131207448%7Ccid:81761497%7Cgid:5393882328%7Caid:15776625575%7Cadp:no%7Cpos:premium2%7Csrc:search_none%7Cdvc:desktop%7Ccoef_goal:0%7Cregion:21%7CВологда&pid=yandexdirect_int&c=mg_dsa_content_p_low-regions&af_siteid=search_none&af_c_id=81761497&af_adset_id=5393882328&af_ad_id=15776625575&af_ad=---autotargeting&af_sub1=&af_sub2=2&is_retargeting=true&clickid=8282946224077406207&idfa=&google_aid=&android_id=&oaid=&af_reengagement_window=30d&af_force_deeplink=true&af_click_lookback=7d&referrer=reattribution=1&yclid=8282946224077406207" class="price-button">Check price</a>
+        </div>
+        <div class="gear-item">
+            <img src="/static/img/opt.jpg" alt="Клавиатура">
+            <div class="gear-title">Logitech Pro X</div>
+            <a href="https://market.yandex.ru/product--igrovaia-klaviatura-logitech-g-pro-x-s-rgb-podsvetkoi-chernyi-sinii-perekliuchatel/822564204?sku=103596252873&uniqueId=134799842&do-waremd5=6x6jqNOM34lSAS0-6E_E4g&clid=1601&utm_source=yandex&utm_medium=search&utm_campaign=ymp_offer_promo_AE_bko_dyb_search_rus&utm_content=cid%3A113603367%7Cgid%3A5495142848%7Caid%3A1854174485906371044%7Cph%3A53127736002%7Cpt%3Apremium%7Cpn%3A1%7Csrc%3Anone%7Cst%3Asearch%7Crid%3A53127736002%7Ccgcid%3A20729119&yclid=1758552187146862591" class="price-button">Check price</a>
+        </div>
+        <div class="gear-item">
+            <img src="/static/img/monesy_ushi.jpg" alt="Гарнитура">
+            <div class="gear-title">Logitech G Pro X</div>
+            <a href="https://market.yandex.ru/product--cloud-ii/12241651?sku=100360515521&uniqueId=43149540&do-waremd5=8Uo1Mp-xPSp8xAgB3yhseA&sponsored=1&cpc=rKVWr15UHjfhA96zYad0NUEwKH3HqCvjbYLWxPE4s8NRWJGKYDaX8iKcjMSNVFA8NFpvWnj68tuz3_h7K_gwZiMNNpmaVdXwTaHw5g0w5JbIxPYCr3lgB9QqdmfGPS7kwglBEHIGN2kBS9UR6fYNTnGDQUVjxvDxs9YduFEOKog3618WMI74FQf03Hvd3T28JHyU_nSe3robZQ769VqtYzKMVDULOjoLhhE2LCsIaJY%2C" class="price-button">Check price</a>
+        </div>
+        <div class="gear-item">
+            <img src="/static/img/fa.jpg" alt="Коврик">
+            <div class="gear-title">SteelSeries QcK+</div>
+            <a href="https://market.yandex.ru/product--qck-63003/1729321433?sku=100235824939&uniqueId=125466163&do-waremd5=Jo33Y6Pam8fv9njDkY871A&sponsored=1&cpc=ywvaE05jVjUWhh0PJy37QYoDvVgLSqa_3XYhGzL5-z1GB91w0eapcmkqwpw1gjwZz3s7VFpo1HE8H_iYySH4oOvYCm4Jv0zTUXG6GEVStP0rLTKWIcCzUYLyzcJFjA2H3LnF7jI4nB4vwtEElJoxlV4ymJzx25l0XeImvG8kSrIdG7X7u23JEPlbsIXs9IHya_0khzz6gKey6Ti2BNdlvtAnBP6Qux7364FnLgYvIL3zycqeRy5wIXcylUbAt6RWDf4yOMqw0ihks5NV36H5_AJk_OxBPN2z--ZjD_BpmoMTTVVMpyHtEomkj_MlFbyd7ewnBWhcIZHhiC0ix4FpRQGKq6YbJC5SmqbfXZzesPa4cxnWns2SgaV_OagoZsmqYRdUyfUUlmHaToY4fBkghL3MfePeWITMvArhrjrkwz0WIdk01F8M6G0h-YTh0Qr2ZWW2zsbIk7CY3qe2kDVMh7PBJUzT1ui9j4Hh2lAO7Sg9vpFt-9ya4VrXvIif9i3fUzLwPheKwBEpGnaM5bwPqxCsP_gloqjxUg9z_Q--CnQ%2C" class="price-button">Check price</a>
+        </div>
+        <div class="gear-item">
+            <img src="/static/img/gg.jpg" alt="Наушники">
+            <div class="gear-title">Shure SE215 Clear</div>
+            <a href="https://market.yandex.ru/product--se215-cl-efs/654295012?sku=100879523752&uniqueId=965815&do-waremd5=HU5HPIHU2Tmdy7S8IbNPLw&sponsored=1&cpc=XiZI9aLx0D4Cv7j1nwqf621U0RdCDWfp0xMQpd7C36JOCPLCrLPGYN6iHlMvmUW7EAFPy6u_OuStSj6dWDHFaWW5Tq3cU9wv2ZOx6hJW-1Qig3YZgpYfhtdjBzaeU5itToj6KKaIvmYIYn1mvHo33f9dV3Zmv_3JfP9onLy9p15hegMy06eK55eg0AsA0--W2Qk9BakniT6GjXzk23tYFKcU_C5NWiCqNST5W8qgkxHxSv_wHbejVTnBH5o4kXhPXxZJEI_aZDjS5pd6AGgzrujMdZMxSglKHq0ZY5lGPcJh9sC_Y8kQZBRU_HCI2QTW7K8sK7PBfUwxvN4iDtojJpcTGZp4DsMPVs1jB5v0NnysUYJDu60dgaz_dEwzIFzf1xrmY0HuJcM0BDIhi96NRMSqIsM8e-7XDIePELE7boBBNEmQw-9vyLi9uYkbHo5AD4YISe7jp4zymG6h9tnTDFiRQmgdDjksO3qRj156q5fn6w-O8qgwxxL43EsHxNiwJr19KEmY1OHZ57gwTmgEKlS3uN_wYLZF3nRWCOPLFM1kyar5C6Yy9cG3-FGDzyK2Is9m_aZiF9nq9jmVYTph_NTbl_5WcJrwz65MmCMcSpFkjiijGFtvPH1M63m7nZxY-qa00qgB9FZ5A4yCs7jkM_sNNZLjj4nHRBkySkOr1FudcW1n5yAIWw%2C%2C" class="price-button">Check price</a>
+        </div>
+        <div class="gear-item">
+            <img src="/static/img/i9.jpg" alt="Процессор">
+            <div class="gear-title">Intel Core i9-13900K</div>
+            <a href="https://market.yandex.ru/product--core-i9-13900k/1777242056?sku=101853780060&uniqueId=1499763&do-waremd5=Gb4Sq-EaBPjHG7969N_GSA&cpc=jE1TXHJ5I3hhjVoK6mrRRQnyGlOyOpRlGEHfWVRPv3Z7uSkAbLenhRYZL6U0hR0sj5HBD6m1U7RhA9sT_NwAJynJP22T_h9qvKOmSbIpq2dnKssUedWjA9b0l9RBnKzrAGVIAaP79tC9VrA3c3A0JmFA-ii_nb-bWGYdMGh9aq_nzMP9tUNMPoK9o9ThjDlJG2wFfKM9HKBDNmP22pnl6Jx2FpLci2x0NbUsu8sN3k5eL6lfvNX3I074SEYWvP19NnDdCfpKvoWyvw0-X2L2idhwBC8CXvJH9VXAvH4OdaZhjfGjMXBxS_zMXytomrnVCYgjxR7DAfkarMwtyZPR7GZRzSgRhWYD_e_ttBnXe9HBhRXvn1cV-joSErnUb79lwDWDJA_4GUSzSiwGzgDZ49FAYtSPjkRXymuOpcWA84tqT9-mrhfEKbgA6WN1wdfHEPJiEvLfu2pA78o1nomzAQGYxWtpeUX4aDey6R9WfUE1qeDi7D9u9DV0AxM3vudUDoXlQO4PqsJAdKSHBr2zm2tjByErFfk6" class="price-button">Check price</a>
+        </div>
+        <div class="gear-item">
+            <img src="/static/img/monesy_viduha.jpg" alt="Видеокарта">
+            <div class="gear-title">MSI NVIDIA GeForce RTX 3080</div>
+            <a href="https://market.yandex.ru/product--videokarta-msi-rtx4060-ventus-2x-black-8gb-oc-gddr6-128-bit-dpx3-hdmi-atx-2fan/1884385942?sku=102065215456&uniqueId=923940&do-waremd5=eZQtn4_zO1s6moNvqcewuQ&sponsored=1&cpc=Aqw5G5UKFPKfSFRur5vdYAUpY7E4fSK-PWW_10PDr2VDZQ0Rmt6Aj3XMFdX1rMtdOkuuQT_sCwxb5dActj1ihrZ1ft8bTrtrXywDaJgZM5aTuyRJzdM0BWyH631j2hIAZSRymp2paR_62I3U2s8OSLq_DsrC3TlIanAUYRwOeY8-4a5VGt64PzBlchjoU8xQtinrwxOV5Shw1QvDEx1bCB8SkgwJTt0J-x8XFPYPM2nSUa0Zt-iL8nSUit-P6igjjv8aSiC9533Y-aTKP0Vm9OMW3BMYsO9jn4Btp4S3_zA-0DMk-VqH0sWernEN2DEIoo-zPvHown9vtjSsNJmwCM55ZEpV6KLB8VleB8DvK5J_Ti0PUWZwihR5KhrRi62_ZV-WwwtlPqYxAgM3llQtUymIR_so82BrW3ntqWQGvqs81vxVYCVdFR0jQrAP-q2sWlyHIdFK6EiRgwWEmWF9OzY8Yruwg1V9nXa5Wv7cNP6YRAzdOifz7f4giV0TVlx-qRpnjw2DLbjuB5nMz1wNmHQaIr6QkhWOvdT1wthI4ygznlmRc9NkzZyiCSVrUwmY6VDgXajkLSs%2C" class="price-button">Check price</a>
+        </div>
+        <div class="gear-item">
+            <img src="/static/img/monesy_styl.jpg" alt="Кресло">
+            <div class="gear-title">Gladiator</div>
+            <a href="https://www.wildberries.ru/catalog/390135490/detail.aspx?targetUrl=EX" class="price-button">Check price</a>
+        </div>
+    </div>
+<footer>
+        <div class="footer-links">
+            <a href="about.html">О нас</a>
+            <a href="delivery.html">Доставка и оплата</a>
+            <a href="warranty.html">Гарантия</a>
+            <a href="contacts.html">Контакты</a>
+        </div>
+        <div class="copyright">
+            © 2077 VIPERR PC. Все права защищены.
+        </div>
+    </footer>
+
+    <script src="/static/js/script.js"></script>
+</body>
+</html>

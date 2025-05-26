@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIPERR PC - Сборка игровых компьютеров</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <style>
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #1c1f26;
+}
+
+.logo-green {
+  color: #3cff00;
+}
+
+nav a {
+  color: #ccc;
+  text-decoration: none;
+  margin-left: 20px;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+main {
+  padding: 40px 20px;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+.top-section {
+  margin-bottom: 60px;
+}
+
+.players-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 20px;
+}
+
+.player-card {
+  background-color: #3a3a3a;
+  border-radius: 15px;
+  width: 150px;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.player-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.player-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.player-name {
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 16px;
+  color: aliceblue;
+}
+
+.player-team {
+  font-size: 14px;
+  color: #aaa;
+}
+
+.teams-section {
+  margin-top: 60px;
+}
+
+.teams-grid {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.team-column {
+  text-align: center;
+}
+
+.team-logo {
+  width: 60px;
+  margin: 10px;
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  gap: 10px;
+}
+
+.team-players {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.team-player-card {
+  background-color: #1c1f26;
+  padding: 10px;
+  border-radius: 10px;
+  width: 120px;
+  margin: 0 auto;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.team-player-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 255, 150, 0.2);
+}
+
+.team-player-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 5px;
+}
+
+.vov {
+    color: #fff;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <a href="#" class="logo">VIPERR<span>PC</span></a>
+            <nav>
+                <ul>
+                    <li><a href="#ready-builds">Готовые сборки</a></li>
+                    <li><a href="donk.html">Выбор PRO-игроков</a></li>
+                    <li><a href="https://www.dns-shop.ru/catalog/17a899cd16404e77/processory/?fromRsu=1">Конфигуратор</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+<body>
+
+<h1 style="text-align:center;" class="vov">Про-игроки CS2</h1>
+<div class="container">
+            <a href="index.html" class="back-link">← Вернуться на главную</a>
+</div>
+
+<div class="players-grid">
+    <!-- Donk -->
+    <a href="donk-gear.html">
+        <div class="player-card">
+            <img src="/static/img/donkr.jpg" alt="Donk">
+            <div class="player-info">
+                <div class="player-name">DONK</div>
+                <small>RU RUSSIA</small><br>
+                TEAM SPIRIT<br>
+                CS2
+            </div>
+        </div>
+    </a>
+
+    <a href="monesy-gear.html">
+        <div class="player-card">
+            <img src="/static/img/monesy.jpg" alt="Игрок 2">
+            <div class="player-info">
+                <div class="player-name">Monesy</div>
+                <small>RU RUSSIA</small><br>
+                FALCONS<br>
+                CS2
+            </div>
+        </div>
+    </a>
+
+    <a href="another-player.html">
+        <div class="player-card">
+            <img src="/static/img/chopper.jpg" alt="Игрок 2">
+            <div class="player-info">
+                <div class="player-name">Chopper</div>
+                <small>RU RUSSIA</small><br>
+                FALCONS<br>
+                CS2
+            </div>
+        </div>
+    </a>
+
+    <a href="niko.html">
+        <div class="player-card">
+            <img src="/static/img/niko.jpg" alt="Игрок 2">
+            <div class="player-info">
+                <div class="player-name">Niko</div>
+                <small>RU RUSSIA</small><br>
+                FALCONS<br>
+                CS2
+            </div>
+        </div>
+    </a>
+
+
+    <a href="zywoo.html">
+        <div class="player-card">
+            <img src="/static/img/zyw.jpg" alt="Игрок 2">
+            <div class="player-info">
+                <div class="player-name">ZywOo</div>
+                <small>RU RUSSIA</small><br>
+                FALCONS<br>
+                CS2
+            </div>
+        </div>
+    </a>
+
+
+    <a href="another-player.html">
+        <div class="player-card">
+            <img src="/static/img/simple.jpg" alt="Игрок 2">
+            <div class="player-info">
+                <div class="player-name">S1mple</div>
+                <small>RU RUSSIA</small><br>
+                FALCONS<br>
+                CS2 
+            </div>
+        </div>
+    </a>
+</div>
+<!-- Команды -->
+    <section class="teams-section">
+  <h2 class="vov" >Команды</h2>
+  <div class="teams-container">
+    <div class="team-block">
+      <h3 class="vov" >Team Spirit</h3>
+      <img src="/static/img/Team_Spirit_new_em.jpg" class="team-logo" alt="Team Spirit Logo">
+      <div class="players-list">
+        <a href="donk-gear.html" class="player-item">
+          <img src="/static/img/donkr.jpg" alt="Donk">
+          <span>Donk</span>
+        </a>
+        <a href="#" class="player-item">
+          <img src="/static/img/chopper.jpg" alt="Chopper">
+          <span>Chopper</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="team-block">
+      <h3 class="vov">FALCONS</h3>
+      <img src="/static/img/dddd.jpg" class="team-logo" alt="FALCONS Logo">
+      <div class="players-list">
+        <a href="/templates/monesy-gear.html" class="player-item">
+          <img src="/static/img/monesy.jpg" alt="M0nesy">
+          <span>M0NESY</span>
+        </a>
+        <a href="niko.html" class="player-item">
+          <img src="/static/img/niko.jpg" alt="Niko">
+          <span>Niko</span>
+        </a>
+      </div>
+    </div>
+    <div class="team-block">
+      <h3 class="vov">VITALITY</h3>
+      <img src="/static/img/vit.jpg" class="team-logo" alt="FALCONS Logo">
+      <div class="players-list">
+        <a href="zywoo.html" class="player-item">
+          <img src="/static/img/zyw.jpg" alt="M0nesy">
+          <span>ZywOo</span>
+        </a>
+        <a href="" class="player-item">
+          <img src="/static/img/APEX.JPG" alt="Niko">
+          <span>Apex</span>
+        </a>
+      </div>
+    </div>
+    <div class="team-block">
+      <h3 class="vov">Красные Волки</h3>
+      <img src="/static/img/volki.png" class="team-logo" alt="FALCONS Logo">
+      <div class="players-list">
+        <a href="shigin.html" class="player-item">
+          <img src="/static/img/shigin.jpg" alt="Shigin">
+          <span>SHIGIN</span>
+        </a>
+        <a href="#" class="player-item">
+          <img src="/static/img/111111.jpg" alt="Bistrov">
+          <span>B1STrov_papa</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+  </main>
+
+<footer>
+        <div class="footer-links">
+            <a href="about.html">О нас</a>
+            <a href="delivery.html">Доставка и оплата</a>
+            <a href="warranty.html">Гарантия</a>
+            <a href="contacts.html">Контакты</a>
+        </div>
+        <div class="copyright">
+            © 2077 VIPERR PC. Все права защищены.
+        </div>
+    </footer>
+
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
